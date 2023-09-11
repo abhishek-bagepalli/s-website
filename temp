@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhavi's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .hobbies {
+            margin-top: 2em;
+        }
+        .hobbies img {
+            max-width: 100px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Madhavi's Profile</h1>
+    </header>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>Hello, I'm Madhavi, a 45-year-old medical reviewing scientist. I work as a group leader and am passionate about medical research and advancements.</p>
+        
+        <h2>Hobbies</h2>
+        <p class="hobbies">In my free time, I enjoy doodling and reading mystery novels.</p>
+        <div class="hobbies">
+            <img src="doodle.jpg" alt="Doodle Example">
+            <img src="mystery_novels.jpg" alt="Mystery Novels">
+        </div>
+    </div>
+</body>
+</html>
